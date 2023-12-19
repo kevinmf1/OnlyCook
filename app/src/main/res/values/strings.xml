@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">OnlyCook</string>
+    <string name="submit">Submit</string>
+    <string name="union">UNION</string>
+    <string name="only">Only</string>
+    <string name="cook">Cook</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mau_masak_apa_hari_ini">Mau masak apa hari ini ?</string>
+    <string name="name">Name :</string>
+    <string name="phone_no">Phone No :</string>
+    <string name="age">Age :</string>
+    <string name="name_name">Name Name</string>
+    <string name="email">Email :</string>
+    <string name="age_age">Age Age</string>
+    <string name="email_email">Email Email</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="gatau">Gatau</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+    <string name="webclient_id">448343985488-ol0v81ah15mog4tf1hsi4mug12mfep5a.apps.googleusercontent.com</string>
+    <string name="title_activity_about">AboutActivity</string>
+</resources>

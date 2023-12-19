@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/outline_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Warna latar belakang -->
+            <corners android:radius="8dp" /> <!-- Radius sudut -->
+        </shape>
+    </item>
+    <item android:right="2dp" android:left="2dp" android:top="2dp" android:bottom="2dp">
+        <shape>
+            <solid android:color="#000000" /> <!-- Warna outline (misalnya hitam) -->
+            <corners android:radius="6dp" /> <!-- Radius sudut lebih kecil -->
+        </shape>
+    </item>
+</layer-list>

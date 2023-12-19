@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "448343985488",
+    "project_id": "onlycook-adb6d",
+    "storage_bucket": "onlycook-adb6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448343985488:android:611fcb43794e4a3c30b055",
+        "android_client_info": {
+          "package_name": "com.example.uts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448343985488-kvuctpnoepd4m5f3oppb6u8cqhcq95pc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uts",
+            "certificate_hash": "356422e68b8178560504be002691a0c5d817992a"
+          }
+        },
+        {
+          "client_id": "448343985488-ol0v81ah15mog4tf1hsi4mug12mfep5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2YkkvspzVvY_ctND3aPDe5I7_0mzilzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448343985488-ol0v81ah15mog4tf1hsi4mug12mfep5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

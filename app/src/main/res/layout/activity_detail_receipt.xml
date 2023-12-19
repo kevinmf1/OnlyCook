@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.DetailReceiptActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@null"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:layout_constraintBottom_toBottomOf="@+id/detailReceiptTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/detailReceiptTitle" />
+
+        <TextView
+            android:id="@+id/detailReceiptTitle"
+            style="@style/textBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Detail Resep"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/favoriteButton"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:adjustViewBounds="true"
+            android:elevation="2dp"
+            android:src="@drawable/baseline_favorite_border_24"
+            app:layout_constraintBottom_toBottomOf="@+id/detailReceiptTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/detailReceiptTitle" />
+
+        <TextView
+            android:id="@+id/receiptTitle"
+            style="@style/textMedium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="20sp"
+            android:text="Dessert Oreo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/backButton"
+            app:layout_constraintTop_toBottomOf="@+id/detailReceiptTitle" />
+
+        <TextView
+            android:id="@+id/authorReceipt"
+            style="@style/textRegular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/receiptTitle"
+            app:layout_constraintStart_toStartOf="@+id/receiptTitle"
+            app:layout_constraintTop_toBottomOf="@+id/receiptTitle"
+            tools:text="Muhammad Andi Aziz" />
+
+        <TextView
+            android:id="@+id/dateReceipt"
+            style="@style/textRegular"
+            android:layout_width="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/receiptTitle"
+            app:layout_constraintStart_toStartOf="@+id/receiptTitle"
+            app:layout_constraintTop_toBottomOf="@+id/authorReceipt"
+            tools:text="5 Desember 2023" />
+
+        <ImageView
+            android:id="@+id/receiptImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintEnd_toEndOf="@+id/authorReceipt"
+            app:layout_constraintStart_toStartOf="@+id/authorReceipt"
+            app:layout_constraintTop_toBottomOf="@+id/dateReceipt" />
+
+        <TextView
+            android:id="@+id/descReceiptTitle"
+            style="@style/textMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Deskripsi"
+            app:layout_constraintStart_toStartOf="@+id/receiptImage"
+            app:layout_constraintTop_toBottomOf="@+id/receiptImage" />
+
+        <TextView
+            android:id="@+id/descReceipt"
+            style="@style/textRegular"
+            android:layout_marginBottom="30dp"
+            android:justificationMode="inter_word"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan sollicitudin nisl in accumsan. Aenean scelerisque est sit amet sem sagittis, non lobortis orci ultrices. Nullam elementum vehicula ligula, eget egestas odio mattis vitae. Ut et volutpat sapien. Sed elit mi, sagittis sed risus a, aliquam semper lectus. Donec et tortor auctor, luctus urna vel, fringilla nunc. Suspendisse magna ligula, venenatis sed lectus vitae, ultrices mollis risus. Cras commodo pharetra arcu et scelerisque. Fusce egestas congue volutpat. Nunc molestie dapibus eros et bibendum. Donec eget lacus a odio placerat blandit. Curabitur ac lorem ut nulla efficitur rutrum sed ut erat. Aliquam erat volutpat. Duis ac sagittis nisl. Praesent vel metus justo. Integer pulvinar tellus id quam efficitur, sit amet viverra orci tempus. Maecenas semper scelerisque velit, sit amet maximus lorem. Praesent tincidunt aliquam tortor, ac facilisis quam varius nec. Cras porta quam vitae massa imperdiet, nec lobortis turpis finibus. Etiam sodales risus a feugiat efficitur. Nulla tristique pharetra consequat. Praesent nec elit finibus, commodo lacus eu, elementum justo. Phasellus elementum tellus at nisi tempus, vitae egestas nulla commodo. Vivamus porttitor nulla quis mauris fringilla ultrices. Proin nec enim enim. Praesent pellentesque, neque ac commodo laoreet, nibh sem ullamcorper lacus, non pulvinar sem ex quis dui. Vestibulum ultrices congue facilisis."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/descReceiptTitle"
+            app:layout_constraintTop_toBottomOf="@+id/descReceiptTitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/receipt">
+
+    <fragment
+        android:id="@+id/receipt"
+        android:name="com.example.uts.ui.fragment.ReceiptFragment"
+        android:label="fragment_receipt"
+        tools:layout="@layout/fragment_receipt" />
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.uts.ui.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/favorite"
+        android:name="com.example.uts.ui.fragment.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/myreceipt"
+        android:name="com.example.uts.ui.fragment.MyReceiptFragment"
+        android:label="fragment_my_receipt"
+        tools:layout="@layout/fragment_my_receipt" />
+
+</navigation>
